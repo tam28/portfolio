@@ -1,0 +1,240 @@
+html{
+  height: 100%;
+  margin:0;
+
+}
+body {
+  min-height: 100%;
+  margin:0;
+}
+
+h1, h2, h3, h4, h5, p, li, a {font-family: 'Raleway', sans-serif;
+}
+
+#blback {background-color: #000000;
+}
+
+#header {width:100%;
+		height:auto;
+		padding: 10% 0;
+		text-align: center;
+		color: #ffffff;
+	}
+
+	.main {width:100%;
+		height:auto;
+		padding: 10% 0 15% 0;
+		text-align: center;
+	}
+
+	#header h1 {font-size: 400%;
+		margin-bottom:0;
+		color: #ffffff;
+	}
+
+	#header > h2 {letter-spacing: 4px;
+	}
+
+h2 {margin-top:0;
+	color: #ffffff;
+    margin-top: 0;
+	font-size: 200%;
+}
+
+.grad {
+  background: -webkit-linear-gradient(#A30052, #520029); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#A30052, #520029); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#A30052, #520029); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#A30052, #520029); /* Standard syntax */
+}
+
+.black {background-color:#333333;
+}
+
+h1 {color:#ffffff;
+	margin:0;
+	padding:0;
+}
+
+.about {width:25%;
+		height:auto;
+		padding:0 12.5%;
+		margin:0 auto;
+		float: left;
+}
+
+.masthead {
+    padding: 5%;
+  	border-top:1em solid #333333;
+    width:90%;
+}
+
+.masthead-heading,
+.masthead-intro, .content-footer {
+    text-align:center;
+    color:#ffffff;
+}
+ .masthead-heading,
+.masthead-intro {text-shadow: 3px 3px 1px #3c3c3c, 5px 5px 6px #333333;
+}
+
+.masthead-intro {
+    margin-bottom: 1em;
+    font-size:1.5em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.introduction-section, .location-section, .questions-section {max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2em
+}
+
+.content-footer {width:100%;
+        height:auto;
+        padding:5% 0;
+        background-color:#333333;
+        margin-top:5%;
+        clear:both;
+}
+
+.content-footer > p {color:#ffffff;
+}
+
+.social > li {display:inline-block;
+            
+}
+
+.content-footer a:link, .content-footer a {color:#FFCC99;}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p,
+.questions-section > p,
+.social > li {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color:#CC0066;
+}
+section > h1 {
+    font-size: 1.5em;
+    color:#333333;
+}
+
+.social > li {margin-right:1em;
+}
+
+a:hover {color:#FFCC99;
+}
+
+nav {text-align: right;
+	display: inline;
+	color: #333333;
+	padding:2% 0;
+}
+
+nav > ul > li > a {color: #333333;
+	text-decoration: none;
+	display: inline;
+	margin-right: 2%;
+	list-style: none;
+
+}
+
+nav > ul > li {
+	display: inline;
+	margin-right: 2%;
+	list-style: none;
+	font-size: 110%;
+
+}
+
+a:link {display: inline;}
+
+h1 > a {color:#ffffff;
+
+}
+
+.work {width:90%;
+		margin:2% auto;
+		clear: both;
+}
+
+.workimg {width:80%;
+		height:auto;
+		margin:2% auto;
+}
+
+.workcontent {width:80%;
+			height:auto;
+			padding:3%;
+			margin:2% auto;
+}
+
+.workcontent > p {font-size: 120%;
+}
+
+@media only screen and (min-width: 700px) {
+
+.work {width:80%;
+		margin:2% auto;
+		clear: both;
+}
+
+.workimg {width:50%;
+	float:left;
+	margin-bottom:4%;
+}
+
+.workcontent {width:42%;
+	float:left;
+	padding:4%;
+}
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+  .masthead {
+        padding: 5%;
+    	width: 90%
+    }
+  .content-footer > p, .social > li {
+    font-size:0.8em;
+  }
+  
+  ul.social {padding-left:0;
+  }
+  
+}
+
+@media only screen and (max-width: 700px) {
+  
+    .introduction-section, .questions-section, .location-section {padding:0 3em;
+    }
+  .content-footer {margin:5% 0;
+				  padding:10%;
+				  width:80%;  
+}
+  .content-footer {margin-top:10%;}
+  .workcontent > p {font-size: 100%;}
+}
+
+
+
+
+
